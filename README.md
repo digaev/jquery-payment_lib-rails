@@ -1,5 +1,7 @@
 # jquery-payment_lib-rails
 
+[![Gem Version](https://badge.fury.io/rb/jquery-payment_lib-rails.svg)](http://badge.fury.io/rb/jquery-payment_lib-rails)
+
 This gem makes easy to use [jquery.payment](https://github.com/stripe/jquery.payment) javascript library in your rails application.
 
 ## Installation
