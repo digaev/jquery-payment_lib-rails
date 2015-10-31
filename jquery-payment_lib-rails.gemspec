@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Use jQuery.payment with Rails}
   spec.description   = %q{This gem provides jQuery.payment library for using in your Rails application.}
   spec.homepage      = "https://github.com/digaev/jquery-payment_lib-rails"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
