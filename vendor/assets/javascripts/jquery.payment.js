@@ -20,20 +20,6 @@
 
   $.payment.cards = cards = [
     {
-      type: 'elo',
-      patterns: [4011, 4312, 4389, 4514, 4573, 4576, 5041, 5066, 5067, 509, 6277, 6362, 6363, 650, 6516, 6550],
-      format: defaultFormat,
-      length: [16],
-      cvcLength: [3],
-      luhn: true
-    }, {
-      type: 'visaelectron',
-      patterns: [4026, 417500, 4405, 4508, 4844, 4913, 4917],
-      format: defaultFormat,
-      length: [16],
-      cvcLength: [3],
-      luhn: true
-    }, {
       type: 'maestro',
       patterns: [5018, 502, 503, 506, 56, 58, 639, 6220, 67],
       format: defaultFormat,
